@@ -1,0 +1,123 @@
+/* CSS RESET */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER */
+
+header {
+	background-image: url(./pattern.png);
+	background-size: 400px, 150px;
+	background-repeat: repeat;
+	background-position: top;
+	background-color: rgb(78,160,255);
+	height: 100px;
+}
+
+.logo {
+	max-width: 200px;
+	position: relative;
+	top: 40px;
+	left: 10px;
+}
+
+/* TITLE */
+
+.title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+.author {
+	font-size: large;
+}
+
+.author > a{
+	text-decoration: none;
+	color: rgb(78,160,255);;
+}
+
+.date {
+	font-size: smaller;
+}
+
+/* PICTURES */
+
+.caption {
+	font-size: smaller;
+}
+
+/* ARTICLE */
+
+main {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.article {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+span {
+	background-color: yellow;
+}
+
+/* LIST */
+
+ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 30px; 
+}
+
+ul > li {
+	list-style: circle;
+}
+
+
+/* TABLE */
+
+table {
+	margin-bottom: 10px;
+	border-spacing: 0px;
+}
+
+thead {
+	background-color: rgb(32,169,229);
+	color: white;
+	font-weight: bold;
+}
+
+tbody > tr:nth-of-type(1), 
+tbody > tr:nth-of-type(3)
+{
+	background-color: rgb(177,229,242);
+}
+
+td {
+	min-width: 300px;
+}
+
+/* EXTRAS */
+
+.extrasTitle {
+	color: grey;
+	margin-bottom: 10px;
+}
+
+/* VIDEOS */
+
+.video h3 {
+	color: white;
+	position: relative;
+	left: 10px;
+	bottom: 200px;
+}
